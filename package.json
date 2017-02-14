@@ -1,0 +1,22 @@
+{
+  "name": "mmax-blinker",
+  "version": "1.0.0",
+  "description": "Blink MinnowMax on-board LED",
+  "main": "Blink-IO.js",
+  "bin" : {
+    "mmax-blinker" : "./Blink-IO.js"
+  },
+ "dependencies" : {
+   "mraa" : "1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minnowmax",
+    "led",
+    "mraa"
+  ],
+  "author": "dev-day",
+  "license": "MIT"
+}
